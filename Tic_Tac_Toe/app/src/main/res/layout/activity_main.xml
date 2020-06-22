@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#232F34"
+    tools:context="com.example.tictactoe.MainActivity"
+    >
+
+
+    <EditText
+        android:id="@+id/p1name"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="121dp"
+        android:background="#344955"
+        android:ems="10"
+        android:hint="Player 1 Name"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/p2name"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="275dp"
+        android:background="#344955"
+        android:ems="10"
+        android:hint="Player 2 Name"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/Pbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="157dp"
+        android:text="Play!"
+        android:onClick="play"
+        android:background="#F9AA33"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="97dp"
+        android:text="TIC TAC TOE!"
+        android:textColor="#ffffff"
+        android:textSize="33dp" />
+</RelativeLayout>
